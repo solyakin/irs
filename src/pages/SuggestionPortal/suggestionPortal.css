@@ -1,0 +1,35 @@
+.suggestion-portal{
+    background: url(../../assets/backgroundgradient.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.suggestion-portal p{
+    margin-bottom: 0;
+}
+.heading-msg{
+    width: 80%;
+    margin: 20px auto;
+}
+.heading-msg h4{
+    font-size: 18px;
+    color: #2D5F84;
+    font-weight: 600;
+}
+.heading-msg p{
+    font-size: 13px;
+    color: #2D5F84;
+    font-weight: 500;
+}
+.suggestion-portal .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.suggestion-portal .token-blue-card, .suggestion-portal .birthday-card{
+    flex: .25;
+}
+.suggestion-portal .suggestion-form{
+    flex: .30;
+}

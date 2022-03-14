@@ -1,0 +1,25 @@
+.asset-disposal-form{
+    background-color: #081E43;
+    padding: 30px 20px;
+    border-radius: 25px;
+}
+.asset-disposal-form h4{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 2rem;
+}
+.asset-disposal-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+}
+.asset-disposal-form input{
+    border: 1px solid #a1a1a1;
+    border-radius: 25px;
+    padding: 8px 10px;
+    font-size: 14px;
+    background: white;
+    margin-bottom: 2rem;
+    outline: none;
+}

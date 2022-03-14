@@ -1,0 +1,22 @@
+.tokenize-card{
+    background: url(../../assets/backgroundgradient.png);
+    background-position: center top;
+}
+.tokenize-card p{
+    margin-bottom: 0;
+}
+.tokenize-card .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.tokenize-card .token-blue-card{
+    flex: .25;
+}
+.tokenize-card .token-customer-card{
+    flex: .35;
+}
+.tokenize-card .birthday-card{
+    flex: .25;
+}

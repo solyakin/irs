@@ -1,0 +1,94 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1140px;
+    margin-top: 2rem;
+}
+.profile-card{
+    flex: .7;
+}
+.irs-value-card{
+    flex: .25;
+}
+.user-profile .image-card{
+    position: relative;
+}
+.image-card img{
+    width: 100%;
+}
+.user-profile .user-image{
+    position: absolute;
+    bottom: -80px;
+    left: 40px;
+}
+.user-image img{
+    width: 80%!important;
+    object-fit: cover;
+}
+.info-card-wrapper{
+    margin-top: 100px;
+    text-align: left;
+    padding-left: 40px;
+}
+.info-card-wrapper h3{
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 500;
+    color: #083061;
+}
+.info-card{
+    display: flex;
+    align-items: flex-end;
+}
+.info-card .portfolio{
+    border-right: 2px solid #B2B1B1;
+    padding-right: 20px;
+}
+.info-card ul{
+    margin-bottom: 0;
+}
+.info-card li, .superior-officer p{
+    color: #083061;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 24.5px;
+}
+.superior-officer{
+    padding-left: 20px;
+}
+.superior-officer p{
+    margin-bottom: 0;
+}
+.info-card-wrapper button{
+    padding: 6px;
+    color: white;
+    border-radius: 25px;
+    background: #083061;
+    font-size: 14px;
+    border: none;
+    width: 130px;
+    margin-top: 2rem;
+}
+.irs-value-card{
+    background-color: #083061;
+    border-radius: 5px;
+    padding: 30px 15px;
+    color: white;
+}
+.irs-value-card img{
+    margin-bottom: 20px;
+}
+.irs-value-card p{
+    /* text-decoration: underline; */
+    font-size: 13px;
+    font-weight : 500;
+}
+.irs-value-card li{
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight : 500;
+}
+.irs-value-card h4{
+    font-size: 20px;
+}

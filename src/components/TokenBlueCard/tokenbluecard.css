@@ -1,0 +1,40 @@
+.token-blue-card{
+    background : #083061;
+    border-radius: 6px;
+    padding: 40px 20px;
+}
+.token-blue-card .rowOn{
+    display: flex;
+    align-items: center;
+}
+.rowOn > div{
+    width: 50%;
+    color: white;
+    height: 90px;
+    margin: 10px 6px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rowOn p{
+    font-size: 13px;
+}
+.blue-box{
+    background: #2E75EE;
+}
+.yellow-box{
+    background: #F5BA14;
+}
+.green-box{
+    background: #1FA463;
+}
+.lightblue-box{
+    background: #5290F5;
+}
+.lightyellow-box{
+    background: #FFD14A;
+}
+.lightgreen-box{
+    background-color: #0F8F82;
+}

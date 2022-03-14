@@ -1,0 +1,149 @@
+.homepage{
+    background: url(../../assets/PVjYuoAfBB28uOnd_es3EkBkUGkHGnzlAv58O9i5RoN_0EEhCdMRScLMI4B6lYO5Pj4BX8erMR920DBrYcpoauV4M2JSYe0vLBmXxfKaL54RPtOIc9NxjJ1PKNHTh6LxF2e+hrrI53k8zyoaPW_lIHZBArMUwuEaHYUYBJ88_DSklPHuDpLZaj1b9V+WYRZi9JhpDBKytos7RnMlEoa.png);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+.container_{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    align-items: center;
+    justify-content: center;
+}
+.primera-bg-logo{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 500px;
+    height: 500px;
+    z-index: 3;
+}
+.primera-bg-logo img{
+    width: 100%;
+}
+.inner-wrapper{
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-wrapper{
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 40px;
+}
+.form-wrapper .logo img{
+    width: 140px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    color: #083061;
+}
+.logo p{
+    color: #083061;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.form-wrapper form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto;
+    margin-top: 0;
+}
+.form-wrapper form input{
+    padding: 6px 10px;
+    border: 1px solid #A1A1A1;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+.form-wrapper button{
+    padding: 6px 40px;
+    border-radius: 5px;
+}
+form button{
+    padding: 10px 40px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    background-color: #083061;
+    font-size: 14px;
+}
+form p{
+    /* width: 90%; */
+    margin: 10px auto;
+    color: #083061;
+    font-size: 13px;
+}
+.form-wrapper .forget{
+    margin-top: 2rem;
+}
+.form-wrapper .register, .form-wrapper .forget{
+    font-size: 11px;
+}
+.primera-ring{
+    position: relative;
+}
+.primera-ring .content{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.primera-ring .wood{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+.primera-ring .overlay-shade{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 400px;
+    height: 500px;
+    z-index: 5;
+}
+.primera-ring .core{
+    width: 250px;
+    object-fit: scale-down;
+}
+.primera-ring .content h3{
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+.primera-ring .content h3 span{
+    font-weight: 600;
+}
+.content .core-text{
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 54%;
+    left: 35%;
+    color: white;
+    width: 150px;
+}
+.copyright{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.copyright p{
+    color: white;
+}

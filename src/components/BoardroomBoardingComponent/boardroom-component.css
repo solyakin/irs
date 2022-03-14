@@ -1,0 +1,38 @@
+.boardroom-com{
+    padding-top: 60px;
+}
+.boardroom-com .notice{
+    background: #CDEDFC;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+.notice p{
+    font-size: 10px;
+    font-weight: 500;
+}
+.boardroom-com span{
+    color: #FF0000;
+}
+.boardroom-com .form-group{
+    width: 80%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boardroom-com label{
+    text-align: right!important;
+}
+.boardroom-com input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eeeeee;
+    text-align: left;
+    font-size: 14px;
+    width: 500px;
+    outline: none;
+}

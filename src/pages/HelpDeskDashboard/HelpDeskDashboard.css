@@ -1,0 +1,18 @@
+.helpdesk-dashobard{
+    background: url(../../assets/backgroundgradient.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.helpdesk-dashobard .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.help-component{
+    flex: .65;
+}
+.helpdesk-dashobard p{
+    margin-bottom: 0;
+}

@@ -1,0 +1,8 @@
+.interview{
+    background-image: url(../../assets/interviewbg.png);
+    background-position: center;
+    background-size: cover;
+}
+.interview .content{
+    padding-top: 60px;
+}

@@ -1,0 +1,16 @@
+.leave{
+    background: url(../../assets/backgroundgradient.png);
+    background-position: center top;
+    background-size: cover;
+}
+.leave .content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.leave p{
+    margin-bottom: 0;
+}
+.leave .leave-dashboard{
+    flex: .7;
+}

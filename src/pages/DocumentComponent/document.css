@@ -1,0 +1,109 @@
+.document{
+    background-image: url(../../assets/faded2.png);
+}
+.main_wrapper{
+    background: url(../../assets//primera.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+.document p{
+    margin-bottom: 0;
+}
+.dashboard-inner-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.dashboard-inner-wrapper .documents-wrapper{
+    flex : .7;
+    height: 546px;
+}
+.documents-wrapper .heading{
+    background-color: rgba(8, 48, 97, .62);
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    border-radius: 10px;
+}
+.heading h4{
+    margin-bottom: 0;
+}
+.documents-wrapper h5{
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.document-tab-wrapper{
+    background: #083061;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 7%;
+    height: calc(100% - 68px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.document-tab-wrapper .document-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.document-tabs > div{
+    flex-basis: calc(30% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.document-tabs p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.box-blue{
+    background-color: #3564CE;
+}
+.box-red{
+    background-color: #D74D42;
+}
+.box-green{
+    background-color: #1FA463;
+}
+.box-yellow{
+    background-color: #FFD14A;
+}
+.lower-message{
+    margin-bottom: 20px;
+}
+.lower-message img{
+    border-right: 1px solid #b2b1b1;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.lower-message p{
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+/* helpdesk */
+.help-desk .document-tabs{
+    width: 100%;
+}
+.help-desk .document-tabs > div{
+    flex-basis: calc(25% - 20px);
+}

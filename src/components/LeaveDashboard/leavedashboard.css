@@ -1,0 +1,140 @@
+.leave-dashboard .heading{
+    background : rgba(8, 48, 97, .62);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.leave-dashboard p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.grey-wrapper{
+    background: #EBE8E8;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 5rem;
+}
+.grey-wrapper .top-tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin : 20px auto;
+}
+.top-tabs p {
+    font-size: 12px;
+    color: white;
+    margin-left: 0;
+    font-weight: 400;
+}
+.top-tabs > div{
+    padding: 7px 20px;
+    border-radius: 7px;
+}
+.leave-db{
+    background: #4C4D4E;
+}
+.apply-leave{
+    background: #042D5D;
+}
+.leave-record{
+    background: #4C4D4E;
+}
+.leave-count{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+.leave-count p{
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.leave-count .item-box{
+    background: #CDEDFC;
+    border-radius: 5px;
+    border: 1px solid #2F6084;
+    padding: 10px;
+    color: #042D5D;
+}
+.leave-count .title{
+    margin-bottom: 10px;
+}
+.leave-count .title p{
+    font-size: 12px;
+    line-height: 1;
+}
+.leave-count .title span{
+    font-size: 8px;
+}
+.leave-count .title .count{
+    padding: 2px 4px;
+    height: 22px;
+    border-radius: 50%;
+    color: white;
+    background: #042D5D;
+    margin-bottom: 0;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.leave-taken{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.leave-taken p{
+    font-size: 10px;
+}
+
+/* leave application list */
+
+
+.leave-application-count{
+    margin-top: 2rem;
+}
+.leave-application-count .list-heading{
+    background-color: #042D5D;
+    padding: 8px 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.list-heading p{
+    font-size: 13px;
+}
+.list-heading .options{
+    display: flex;
+    align-items: center;
+}
+.options p{
+    border-right: 1px solid white;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.options p:last-child{
+    border-right: none;
+}
+.leave-application-count table{
+    font-size: 13px;
+    width: 90%;
+    margin: 20px auto;
+}
+.leave-application-count thead{
+    background: #CDEDFC;
+    color: #042D5D;
+}
+.leave-application-count th{
+    font-weight: 400;
+}
+.leave-application-count tbody{
+    background: #CDEDFC;
+    color: #042D5D;
+    margin-top: 10px;
+}

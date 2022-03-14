@@ -1,0 +1,148 @@
+.dashboard{
+    background-color: #0A2451;
+    background-image: url(../../assets/primera.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color : white;
+    padding-bottom: 20px;
+}
+.dashboard-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.actions{
+    flex: .7;
+}
+.birthday-card{
+    flex: .25;
+    background: #083061;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+.dashboard p{
+    margin-bottom: 0;
+}
+.action-btns{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    place-content: center;
+    /* align-items: center; */
+    grid-gap : 25px;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+.action-btns img{
+    height: 60px;
+    width: 60px;
+    object-fit: scale-down;
+}
+.action-btns p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.action-btns > div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 120px;
+}
+.staff-wrapper{
+    background-color: #427DDF;
+    border-radius: 5px;
+}
+.help-wrapper{
+    background-color: #D74D42;
+    border-radius: 5px;
+}
+.work-wrapper{
+    background-color: #FFD14A;
+    border-radius: 5px;
+}
+.academy-wrapper{
+    background-color: #427DDF;
+    border-radius: 5px;
+}
+.academy-wrapper p{
+    /* margin-top: -2px; */
+    line-height: 1;
+}
+.document-wrapper{
+    background-color: #3564CE;
+    border-radius: 5px;
+}
+.gallery-wrapper{
+    background-color: #0F8F82;
+    border-radius: 5px;
+}
+.compliance-wrapper{
+    background-color: #DC4E42;
+    border-radius: 5px;
+}
+.banner{
+    text-align: left;
+    color: white;
+    align-items: center;
+    background-color: #707070;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.banner img{
+    margin-right: 20px;
+}
+.banner h4{
+    font-size: 16px;
+}
+.banner p{
+    font-size: 12px;
+}
+.birthday-card .heading{
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.birthday-card .heading img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.birthday-card .heading h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+.birthday{
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.info-wrapper img{
+    width: 45px;
+    object-fit: scale-down;
+}
+.birthday p{
+    font-size: 13px;
+    line-height: 1.4;
+}
+.birthday .user-info{
+    margin-left: 6px;
+}
+.birthday .name{
+    color: #707070;
+}
+.birthday .dob{
+    color: #072F60;
+    font-weight: 500;
+}
+.birthday-mix{
+    width: 25px;
+    height: 30px;
+}
+.cp{
+    margin-top: 5rem;
+    font-size: 12px;
+}

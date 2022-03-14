@@ -1,0 +1,26 @@
+.token-customer-card{
+    border: 1px solid #A1A1A1;
+    border-radius: 10px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.token-customer-card form{
+    display: flex;
+    flex-direction: column;
+}
+.token-customer-card form h5{
+    font-size: 18px;
+    margin-bottom: 2rem;
+    color: #082754;
+}
+.token-customer-card input, .token-customer-card select{
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 8px 10px;
+    border: 1px solid #A1A1A1;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+}

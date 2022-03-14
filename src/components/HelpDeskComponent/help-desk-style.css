@@ -1,0 +1,88 @@
+.help-component h4{
+    color: #072F60;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.help-component .action_btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+.action_btns > div{
+    border: 1px solid #2F6084;
+    background: #CDEDFC;
+    color: #072F60;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    height: 61px;
+    min-width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.action_btns .dboard{
+    justify-content: center;
+}
+.action_btns > div::before{
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 15%;
+    width: 70%;
+    height: 2px;
+    background-color: #057843;
+}
+.action_btns p{
+    line-height: 1.2;
+}
+.ticket-counts{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+.ticket-counts > div{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    width: 140px;
+    text-align: left;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-right: 25px; */
+}
+.ticket-counts .pending{
+    background-color: #2E75EE;
+}
+.ticket-counts .open{
+    background-color: #3564CE;
+}
+.ticket-counts .answered{
+    background-color: #1445B4;
+}
+.ticket-counts .solved{
+    background-color: #0E3387;
+}
+.ticket-table{
+    background: #083061;
+    height: 200px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.ticket-table table{
+    width: 100%;
+    color: white;
+    font-size: 13px;
+}
+.ticket-table th{
+    font-weight: 300;
+}

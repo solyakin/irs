@@ -1,0 +1,22 @@
+.asset-deposit{
+    background: url(../../assets/backgroundgradient.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.asset-deposit .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 60px;
+}
+.asset-deposit p{
+    margin-bottom: 0;
+}
+.asset-deposit .token-blue-card, .asset-deposit .birthday-card{
+    flex: .25;
+}
+.asset-deposit .asset-disposal-form{
+    flex: .32;
+}

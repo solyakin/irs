@@ -1,0 +1,40 @@
+.suggestion-form{
+    background: #081E43;
+    border-radius: 10px;
+    padding: 30px 10px;
+    box-sizing: content-box;
+}
+.suggestion-form form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.suggestion-form input{
+    border: 1px solid #A1A1A1;
+    padding: 7px 10px;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    background-color: white;
+    outline: none;
+}
+.suggestion-form h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 2rem;
+}
+.suggestion-form textarea{
+    border: 1px solid #A1A1A1;
+    padding: 7px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: white;
+    outline: none;
+    height: 100px;
+}
+.suggestion-form::placeholder{
+    color: #A1A1A1;
+}

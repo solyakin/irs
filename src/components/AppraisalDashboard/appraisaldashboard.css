@@ -1,0 +1,61 @@
+.appraisal-dashboard{
+    padding-top: 60px;
+}
+.appraisal-dashboard p{
+    margin-bottom: 0;
+}
+.appraisal-dashboard .appraisal_{
+    flex: .7;
+}
+.appraisal-heading{
+    background : rgba(8, 48, 97, .62);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+}
+.appraisal-heading h4{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.top-tags{
+    width: 70%;
+    margin : 20px auto;
+}
+.top-tags > div{
+    background: #CDEDFC;
+    padding: 15px 10px;
+    border: 1px solid #2F6084;
+    width: 230px;
+    border-radius: 5px;
+    text-align: center;
+    position : relative;
+}
+.top-tags p{
+    color:#042D5D;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.top-tags > div::after{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    /* right: 0; */
+    width: 80%;
+    height: 1.5px;
+    background: #042D5D;
+}
+.top-tags span{
+    font-weight: 700;
+}
+.supervisor-assessment p{
+    margin-right: 10px;
+}
+.appraisal-dashboard table{
+    font-size: 13px;
+    color: #042D5D;
+    margin: 20px auto;
+    width: 85%;
+}

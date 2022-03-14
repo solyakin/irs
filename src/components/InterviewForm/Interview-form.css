@@ -1,0 +1,45 @@
+.interview-form h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.interview-form form{
+    width: 80%;
+    margin: 10px auto;
+}
+.interview-form .form_wrapper{
+    width: 100%;
+    margin: 20px auto;
+}
+.interview-form .form_wrapper > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 40px;
+}
+.form_wrapper .form-group-1{
+    background: #CDEDFC;
+    width: 100%;
+}
+.form_wrapper .form-group-2{
+    background: #5290F5;
+    width: 100%;
+}
+.interview-form .form_wrapper input{
+    padding: 9px 10px;
+    border: 1px solid #a1a1a1;
+    border-radius: 25px;
+    font-size: 13px;
+    outline: none;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.interview-form .form_wrapper .btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.interview-form .form_wrapper button{
+    width: 130px;
+    background: #FFD14A;
+}

@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+/* button {
+  font-size: calc(10px + 2vmin);
+} */

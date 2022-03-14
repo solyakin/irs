@@ -1,0 +1,48 @@
+.info_form{
+    background: url(../../assets/backgroundfaded.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+.info_form .overlay{
+    height: 100%;
+}
+.info_form .main-content{
+    padding-top: 100px;
+}
+.info_form h3{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.info_form input{
+    height: 34px;
+    border: 1px solid #c9c6c6;
+    margin-bottom: 10px;
+}
+.info_form select{
+    border-radius: 25px;
+    margin-top: 10px;
+    border: 1px solid #c9c6c6;
+    padding: 5px 10px;
+}
+.info_form .date input{
+    border-radius: 5px;
+    width: 50px;
+    margin-right: 20px;
+}
+.info_form .date label{
+    margin-right: 20px;
+}
+.info_form h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1rem;
+    color: #083061;
+}
+.info_form p{
+    width: 100%;
+}
